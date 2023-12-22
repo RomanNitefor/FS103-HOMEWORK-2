@@ -102,11 +102,12 @@ li {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero-button {
   color: #fff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -117,6 +118,9 @@ li {
 
 .hero-button:hover {
   background: #404bbf;
+}
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 /** ----------НОВА СЕКЦІЯ features---------- **/
@@ -172,6 +176,7 @@ li {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team-list {
@@ -211,6 +216,7 @@ li {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .portfolio-list {
