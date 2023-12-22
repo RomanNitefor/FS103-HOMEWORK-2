@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul,
@@ -12,12 +14,9 @@ li {
 .header {
 }
 
-.header-navigation {
-}
-
-.header-logo {
+.header-logo-span {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -27,15 +26,18 @@ li {
   text-decoration: none;
 }
 
-.header-logo-span {
+.header-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.header-navigation {
 }
 
 .header-menu-list {
@@ -58,10 +60,11 @@ li {
 }
 
 .header-menu-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .address {
+  font-style: normal;
 }
 
 .address-list {
@@ -74,6 +77,7 @@ li {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -84,7 +88,7 @@ li {
 }
 
 .adress-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /** ----------НОВА СЕКЦІЯ HERO---------- **/
@@ -94,7 +98,6 @@ li {
 
 .hero-title {
   color: #fff;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -103,17 +106,13 @@ li {
 
 .hero-button {
   color: #fff;
+  font-family: "Roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-button:hover {
@@ -162,12 +161,12 @@ li {
 
 /** ----------НОВА СЕКЦІЯ TEAM---------- **/
 
-.Team {
+.team {
+  background: #f4f4fd;
 }
 
 .team-title {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -179,17 +178,14 @@ li {
 }
 
 .team-list-item {
+  background: #fff;
 }
 
 .team-list-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .team-list-title {
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -198,7 +194,6 @@ li {
 
 .team-list-text {
   color: #434455;
-  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -206,12 +201,11 @@ li {
 
 /** ----------НОВА СЕКЦІЯ Portfolio---------- **/
 
-.Portfolio {
+.portfolio {
 }
 
-.Portfolio-title {
+.portfolio-title {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -219,33 +213,28 @@ li {
   text-transform: capitalize;
 }
 
-.Portfolio-list {
+.portfolio-list {
 }
 
-.Portfolio-list-item {
+.portfolio-list-item {
 }
 
-.Portfolio-list-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.portfolio-list-image {
 }
 
-.Portfolio-list-title {
+.portfolio-list-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
-.Portfolio-list-text {
+.portfolio-list-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 /** ----------НОВА СЕКЦІЯ footer---------- **/
@@ -253,9 +242,9 @@ li {
 .footer {
   background: #2e2f42;
 }
-.footer-link {
+.footer-link-span {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -263,9 +252,9 @@ li {
   text-transform: uppercase;
   text-decoration: none;
 }
-.footer-link-span {
+.footer-link {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
